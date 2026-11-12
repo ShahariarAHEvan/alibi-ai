@@ -1,0 +1,15 @@
+{
+  "name": "alibi-ai",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-sqlite --disable-warning=ExperimentalWarning server/index.js",
+    "test": "node --experimental-sqlite --disable-warning=ExperimentalWarning --test \"tests/*.test.js\""
+  },
+  "description": "Alibi AI: a multiplayer mystery game with private clues, AI witnesses and a PayPal sandbox purchase.",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "private": true
+}
